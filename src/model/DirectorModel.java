@@ -10,6 +10,7 @@ package model;
  * @author gefry
  */
 public class DirectorModel {
+    
     private int director_id;
     private String nombre;
     private String apellido;
@@ -25,35 +26,35 @@ public class DirectorModel {
     
     public int getdirector_id()
     {
-            return this.director_id;
+        return this.director_id;
     }
 
     public String getnombre()
     {
-            return this.nombre;
+        return this.nombre;
     }
     
     public void setnombre(String value)
     {
-            this.nombre = value;
+        this.nombre = value;
     }
     
     public String getapellido()
     {
-            return this.apellido;
+        return this.apellido;
     }
     public void setapellido(String value)
     {
-            this.apellido = value;
+        this.apellido = value;
     }
 
     public String getnacionalidad()
     {
-            return this.nacionalidad;
+        return this.nacionalidad;
     }
     public void setnacionalidad(String value)
     {
-            this.nacionalidad = value;
+        this.nacionalidad = value;
     }
     
 }

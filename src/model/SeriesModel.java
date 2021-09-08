@@ -17,39 +17,39 @@ public class SeriesModel {
     
     public SeriesModel(String titulo_,int numTemporadas_,int numEpisodios_)
     {
-            this.titulo = titulo_;
-            this.numTemporadas = numTemporadas_;
-            this.numEpisodios = numEpisodios_;
+        this.titulo = titulo_;
+        this.numTemporadas = numTemporadas_;
+        this.numEpisodios = numEpisodios_;
     }
     
     public String gettitulo()
     {
-            return this.titulo;
+        return this.titulo;
     }
     
     public void settitulo(String value)
     {
-            this.titulo = value;
+        this.titulo = value;
     }
 
     public int getnumTemporadas()
     {
-            return this.numTemporadas;
+        return this.numTemporadas;
     }
     
     public void setnumTemporadas(int value)
     {
-            this.numTemporadas = value;
+        this.numTemporadas = value;
     }
 
     public int getnumEpisodios()
     {
-            return this.numEpisodios;
+        return this.numEpisodios;
     }
     
     public void setnumEpisodios(int value)
     {
-            this.numEpisodios = value;
+        this.numEpisodios = value;
     }
 
 }
